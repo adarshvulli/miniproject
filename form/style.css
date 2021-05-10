@@ -5,7 +5,7 @@ body {
 	/* background-blend-mode:lighten; */
 	background-repeat: no-repeat;
 	background-position: top right;
-	background-color: #c56a53;
+	background-color: #0B0C10;
 	
 }
 img
@@ -19,7 +19,7 @@ img
 	background-color:;
 	position: absolute;
 	top:0;
-	bottom: 0;
+	bottom:0;
 	left: 0;
 	right: 120;
 	margin: auto;
@@ -30,7 +30,7 @@ h1 {
 	font-family: hind, arial, sans-serif;
 	font-weight: 500;
 	font-size: 24px;
-	color: #19B5FE;
+	color: #C5C6C7;
 }
 
 .completed h1 {
@@ -43,7 +43,7 @@ input {
 	height: 60px;
 	width: 100%;
 	border-radius: 10px;
-	color: white;
+	color: rgb(245, 241, 241);
 	font-size: 18px;
 	font-family: open sans, sans-serif, arial;
 	padding: 0 20px;
@@ -56,7 +56,8 @@ input {
 .next-btn {
 	width: 60px;
 	height: 60px;
-	background-color: #19B5FE;
+	/* background-color: #19B5FE; */
+	background-color: #2C3E50;
 	border-radius: 10px;
 	color: white;
 	font-size: 28px;
@@ -72,17 +73,9 @@ input {
 }
 
 .indicator p {
-	color: #336E7B;
+	color: #66fcf1;
 	font-family: open sans, sans-serif, arial;
 	text-align: right;
 	margin: 12px -5px 0 0;
 }
 
-/* .progress-bar {
-	height: 5px;
-	background-color: #00B16A;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	margin-left:-100%;
-} */
