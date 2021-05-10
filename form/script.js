@@ -6,10 +6,3 @@ $(document).ready(function() {
     });
 });
 
-// $(document).ready(function() {
-//     $('.next-btn').click(function() {
-//         $('.progress-bar').animate({
-//         'marginLeft' : "+=20%"
-//         });
-//     });
-// });
