@@ -1,31 +1,3 @@
-<?php
-
-$db=new mysqli("localhost","root","","health_science");
-if(isset($_POST['sf'])){
-    $fullname=$_POST['fullname'];
-    $location=$_POST['location'];
-    $iname=$_POST['iname'];
-    $ppltrained=$_POST['ppltrained'];
-    $researchers=$_POST['researchers'];
-    $publications=$_POST['publications'];
-    $students=$_POST['students'];
-    $samples=$_POST['samples'];
-    
-   
-
-    $q=$db->query("INSERT INTO `data`(`id`,`fullname`,`location`,`iname`,`ppltrained`,`researchers`,`publications`,`students`,`samples`) VALUES ('','$fullname','$location','$iname','$ppltrained','$researchers','$publications','$students','$samples')");
-    if($q>0){
-      header('Location:success.html');
-    }
-    else{
-      header('Location:notsuccess.html');
-    }
-    
-}
- 
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
