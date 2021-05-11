@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Health Science</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -65,20 +66,19 @@ System.out.println("connection established");
 
             ps.close(); //st.close(); con.close(); %>
 
-
             <div class="modal-dialog modal-confirm">
                 <div class="modal-content">
                     <div class="modal-header">
                         <div class="icon-box">
                             <i class="material-icons">&#xE876;</i>
                         </div>
-                        <h4 class="modal-title">Awesome!</h4>
+                        <h4 class="modal-title">Awesome!</h4><br>
                     </div>
                     <div class="modal-body">
-                        <p class="text-center">You have successfull submitted your Data. Thank You!.</p>
+                        <p class="text-center">You have successfull submitted. <br>Thank You!</p>
                     </div>
                     <div class="modal-footer">
-                        <a class="btn btn-success btn-block" data-dismiss="modal" href="./miniproject/main/index.html">OK</a>
+                        <a class="btn btn-success btn-block" data-dismiss="modal" href="miniproject/main/index.html">OK</a>
                     </div>
                 </div>
             </div>
@@ -90,16 +90,17 @@ System.out.println("connection established");
 <style>
     body {
         font-family: 'Varela Round', sans-serif;
-        background: linear-gradient(90deg, rgb(33, 36, 37) 6%, rgb(44, 43, 44) 29%, rgb(24, 25, 26) 84%);
+        background-color: #0b0c10;
     }
     
     .modal-confirm {
-        color: #636363;
+        color: #1f2833;
         width: 325px;
         margin: 30px auto;
     }
     
     .modal-confirm .modal-content {
+        background-color: #c5c6c7;
         padding: 20px;
         border-radius: 5px;
         border: none;
@@ -136,7 +137,7 @@ System.out.println("connection established");
     }
     
     .modal-confirm .icon-box {
-        color: #fff;
+        color: #c5c6c7;
         position: absolute;
         margin: 0 auto;
         left: 0;
@@ -146,7 +147,7 @@ System.out.println("connection established");
         height: 95px;
         border-radius: 50%;
         z-index: 9;
-        background: #82ce34;
+        background: #66fcf1;
         padding: 15px;
         text-align: center;
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
@@ -164,9 +165,9 @@ System.out.println("connection established");
     }
     
     .modal-confirm .btn {
-        color: #fff;
+        color: black;
         border-radius: 4px;
-        background: #82ce34;
+        background: #66fcf1;
         text-decoration: none;
         transition: all 0.4s;
         line-height: normal;
