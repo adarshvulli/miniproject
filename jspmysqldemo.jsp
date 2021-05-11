@@ -17,36 +17,44 @@
 //Class.forName("oracle.jdbc.driver.OracleDriver");
 //Connection con=DriverManager.getConnection("jdbc:oracle:thin:@192.168.23.144:1521:orcl","userid","pwd");    
 System.out.println("connection established");
-    PreparedStatement Stmt=con.prepareStatement("SELECT * from product_view.data");
-    
-    Stmt.executeQuery();
-    ResultSet rs=Stmt.getResultSet();
-    
-    String name= null;
-String no=null;
-String phno=null;
-	%>
+String proname = request.getParameter("pname");
+    PreparedStatement Stmt=con.prepareStatement("SELECT * from product_review.data where pname='"+proname+"'"); Stmt.executeQuery(); ResultSet rs=Stmt.getResultSet(); String fullname= null; String email=null; String pname=null; String rp=null; String recommend=null; String rating=null; %>
             <table border='3'>
-                <th>Name</th>
+                <th>Fullame</th>
                 <th>Email</th>
-                <th>Phone</th>
+                <th>product name</th>
+                <th>review product</th>
+                <th>recommend</th>
+                <th>rating</th>
                 <%    
 while(rs.next())
     { 
-name=rs.getString(1);
-no=rs.getString(2);
-phno=rs.getString(3);
+        fullname=rs.getString(1);
+        email=rs.getString(2);
+        pname=rs.getString(3);
+        rp=rs.getString(4);
+        recommend=rs.getString(5);
+        rating=rs.getString(6);
 %>
 
                     <tr>
                         <td>
-                            <%=name %>
+                            <%=fullname %>
                         </td>
                         <td>
-                            <%=no %>
+                            <%=email %>
                         </td>
                         <td>
-                            <%=phno %>
+                            <%=pname %>
+                        </td>
+                        <td>
+                            <%=rp %>
+                        </td>
+                        <td>
+                            <%=recommend %>
+                        </td>
+                        <td>
+                            <%=rating %>
                         </td>
                     </tr>
 
@@ -54,8 +62,8 @@ phno=rs.getString(3);
 
                     <%  }
     rs.close();Stmt.close();con.close();
-    if(name != null)
-    out.println("Welcome to "+name);
+
+    
      
     %>
             </table>
