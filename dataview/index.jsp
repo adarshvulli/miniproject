@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Reviews</title>
 </head>
 
@@ -40,7 +41,7 @@ String rating=null;
 
 
 
-
+            <button class="btn" onclick="home()"><i class="fa fa-home"></i> Home</button>
 
 
             <div class="container">
@@ -273,4 +274,22 @@ String rating=null;
             transform: translateX(0)
         }
     }
+    
+    .btn {
+        background-color: #45a29e;
+        border: none;
+        color: black;
+        padding: 12px 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: RoyalBlue;
+    }
 </style>
+<script>
+    function home() {
+        window.location.href = "../main/index.html";
+    }
+</script>
