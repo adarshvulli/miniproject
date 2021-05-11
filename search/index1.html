@@ -1,74 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <title>Search
- </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Search
+    </title>
 </head>
+
 <body>
- <div class="search-box">
-  <form action="../../jspmysqldemo.jsp" method="post"></form>
-  <input type="text" name="" class="search-txt" placeholder="Type to Search"/>
-  <button class="search-btn">
+    <form action="../jspmysqldemo.jsp" method="post">
+        <div class="search-box">
+
+            <input type="text" name="pname" class="search-txt" placeholder="Type to Search" />
+            <button type="submit" class="search-btn">
    <!-- <input type="submit" value="Submit"> -->
    <i class="fa fa-search"></i>
   </button>
- </form>
- </div>
+
+        </div>
+    </form>
 </body>
+
 </html>
 <style>
-
- body {
- margin: 0;
- padding: 0;
- background: #0B0C10;
-}
-
-.search-box {
- position: absolute;
- top: 20%;
- left: 50%;
- transform: translate(-50%, -50%);
- background: #1f2833;
- height: 40px;
- border-radius: 40px;
- padding: 10px;
-}
-
-
-.search-btn {
- color: #66fcf1;
- float: right;
- width: 40px;
- height: 40px;
- border-radius: 50%;
- background: #2f3640;
- display: flex;
- justify-content: center;
- align-items: center;
- transition: 0.4s;
- color: white;
- cursor: pointer;
-}
-
-.search-btn > i {
- font-size: 30px;
-}
-.search-txt {
- border: none;
- background: none;
- outline: none;
- float: left;
- padding: 0;
- color: white;
- font-size: 16px;
- transition: 0.4s;
- line-height: 40px;
- width: 500px;
- font-weight: bold;
-}
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0B0C10;
+    }
+    
+    .search-box {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #1f2833;
+        height: 40px;
+        border-radius: 40px;
+        padding: 10px;
+    }
+    
+    .search-btn {
+        color: #66fcf1;
+        float: right;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #2f3640;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .search-btn>i {
+        font-size: 30px;
+    }
+    
+    .search-txt {
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: white;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 500px;
+        font-weight: bold;
+    }
 </style>
