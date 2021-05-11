@@ -19,7 +19,7 @@
         border-bottom: 1px solid #bb1515;
         outline: 0;
         background: transparent;
-        color: #fff;
+        color: #000;
         font-size: 3rem;
         line-height: 4rem;
         letter-spacing: 0.125rem;
@@ -40,7 +40,7 @@
         padding: 0.25em 0;
         border: 0;
         outline: 0;
-        background: #bb1515;
+        background: #66fcf1;
         color: rgba(255, 255, 255, 0.85);
         font-size: 2rem;
         line-height: 3.6rem;
@@ -133,7 +133,7 @@
         width: 70vw;
         padding: 3.125rem 0 1.5rem;
         text-transform: uppercase;
-        color: #fff;
+        color: rgb(250, 249, 249);
         opacity: 0;
         font-size: 1.125rem;
         font-weight: 300;

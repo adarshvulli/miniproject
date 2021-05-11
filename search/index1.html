@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,10 +12,10 @@
  <div class="search-box">
   <form action="../../jspmysqldemo.jsp" method="post"></form>
   <input type="text" name="" class="search-txt" placeholder="Type to Search"/>
-  <a class="search-btn">
-   <input type="submit" value="Submit">
+  <button class="search-btn">
+   <!-- <input type="submit" value="Submit"> -->
    <i class="fa fa-search"></i>
-  </a>
+  </button>
  </form>
  </div>
 </body>
@@ -42,15 +39,6 @@
  padding: 10px;
 }
 
-.search-box:hover > .search-txt {
- width: 240px;
- padding: 0 6px;
-}
-
-.search-btn:hover > .ssearch-btn {
- background: white;
- color: black;
-}
 
 .search-btn {
  color: #66fcf1;
@@ -80,7 +68,7 @@
  font-size: 16px;
  transition: 0.4s;
  line-height: 40px;
- width: 0px;
+ width: 500px;
  font-weight: bold;
 }
 </style>
