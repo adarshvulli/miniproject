@@ -1,5 +1,4 @@
 # Product Review
-A complete working web-app for a detailed product reviews
 ![image](https://user-images.githubusercontent.com/43677033/118282654-23c00380-b4ec-11eb-926e-faa27ef86e12.png)
 # Description
 We are stuck in a time where staying at home has become important. We are now forced to buy everything from online e-commerce websites. A major problem observed when buying a certain product online is the product quality. Although many websites offer review features to their users, they are not honest and can be manipulated easily. We felt the need to create a website where reviews for any product can be given irrespective of the place of buying and no manipulation.
