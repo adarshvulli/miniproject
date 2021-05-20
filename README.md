@@ -8,5 +8,6 @@ We are stuck in a time where staying at home has become important. We are now fo
 <img alt="BootStrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/> 
 ### Back -End:
 <img alt="jsp" src="https://img.shields.io/badge/-JSP-blue?&style=for-the-badge&logo=html5&logoColor=white"/>
-### Data-Base:
+
+### Database:
 <img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
